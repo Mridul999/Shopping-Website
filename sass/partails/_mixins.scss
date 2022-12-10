@@ -1,0 +1,12 @@
+.main-btn {
+  padding: 1.4rem 3.2rem;
+  border: 1px solid $primary-color;
+  text-transform: uppercase;
+  font: 1.4rem $secondary-font;
+  font-weight: 500;
+  border-radius: 0;
+  &:hover {
+    color: $text-white;
+    background: $primary-color;
+  }
+}

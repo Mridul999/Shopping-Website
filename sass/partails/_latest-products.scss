@@ -1,0 +1,15 @@
+.latest_products {
+  margin: 8rem 0;
+  & .latest_hidden_details {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    transition: 0.5s all linear;
+    opacity: 0;
+  }
+  &:hover .hidden_details {
+    opacity: 1 !important;
+  }
+}

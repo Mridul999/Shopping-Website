@@ -1,0 +1,133 @@
+.slider_section {
+  margin: 0;
+  .carousel-caption {
+    top: 30%;
+    left: 20%;
+    text-align: start;
+
+    & p {
+      color: #333333;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      font-size: 1.7rem;
+    }
+    & h1 {
+      font-size: 5.6rem;
+      color: #333333;
+      font-weight: 600;
+    }
+  }
+  .left_arrow,
+  .right_arrow {
+    width: 2.6rem;
+    height: 2.6rem;
+    position: absolute;
+  }
+  .right_arrow {
+    right: 10%;
+  }
+  .left_arrow {
+    left: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .slider_section {
+    .carousel-caption {
+      top: 25%;
+      left: 16%;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .slider_section {
+    .carousel-caption {
+      top: 18%;
+      left: 15%;
+      & h1 {
+        font-size: 4rem;
+      }
+      & p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .slider_section {
+    .carousel-caption {
+      top: 20%;
+      & h1 {
+        font-size: 3.5rem;
+      }
+      & p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .slider_section {
+    .carousel-caption {
+      & h1 {
+        font-size: 3.2rem;
+      }
+      & p {
+        font-size: 1.3rem;
+      }
+    }
+    & .carousel-inner {
+      & img {
+        height: 25rem;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .slider_section {
+    .carousel-caption {
+      top: 10%;
+      & h1 {
+        font-size: 2.6rem;
+      }
+      & p {
+        font-size: 1rem;
+      }
+    }
+    .main-btn {
+      padding: 1rem 2.6rem;
+      font-size: 1.2rem;
+    }
+    & .carousel-inner {
+      & img {
+        height: 20rem;
+      }
+    }
+    .left_arrow,
+    .right_arrow {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+@media (max-width: 330px) {
+  .slider_section {
+    .carousel-caption {
+      & h1 {
+        font-size: 2.2rem;
+      }
+      & p {
+        font-size: 0.8rem;
+      }
+    }
+    .main-btn {
+      margin-top: 0.8rem;
+      padding: 1rem 2.2rem;
+      font-size: 1rem;
+    }
+    & .carousel-inner {
+      & img {
+        height: 17rem;
+      }
+    }
+  }
+}
